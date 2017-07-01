@@ -7,7 +7,7 @@
 
 # Site settings
 title: Welcome To My Website
-email: your-gabriel.aly2007@gmail.com
+email: gabriel.aly2007@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hello this is my first website so this is a test you can look at it theres not much to do so have a nice day and goodbye.
 baseurl: "" # the subpath of your site, e.g. /blog
