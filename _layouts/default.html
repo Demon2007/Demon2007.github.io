@@ -5,7 +5,23 @@
     <img src="http://s3.amazonaws.com/libapps/accounts/44105/images/welcome_thumb_tacks_1600_clr_9661.png" alt="Welcome with thumb tacks"width="150"height="95">    {% include header.html %}
   <body>
 
+// Winston's handsome features don't need outlines
+noStroke();
 
+var eyeSize = 40;
+
+// face
+fill(255, 255, 0);
+ellipse(209, 208, 300, 300);
+
+// eyes
+fill(46, 46, 41);
+ellipse(150, 151, eyeSize, eyeSize);
+ellipse(300, 142, eyeSize, eyeSize);
+
+// mouth
+fill(252, 65, 65);
+ellipse(250, 240, 120, 136);
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
